@@ -19,8 +19,20 @@ It demonstrates how to plan, execute, and document test activities with **struct
 3. **Bug Reporting**  
    - Log discovered defects using the **PAL rule** (Problem – Action – Location).  
    - 📄 Template: [Bug Report Template](docs/bug-report-template.md)  
-   - 📄 Example: [BUG-001 – Character stuck – Moving – Level 2 wall](docs/bug-reports/BUG-001.md)  
+   - 📄 Example: [BUG-001 – Character stuck – Moving – Level 2 wall](docs/bug-reports/BUG-001.md)
 
+---
+
+## 🔄 QA Workflow Diagram  
+
+```mermaid
+flowchart LR
+    A[Test Planning] --> B[Test Case Design & Execution]
+    B --> C{Defect Found?}
+    C -- Yes --> D[Bug Reporting (PAL Rule)]
+    C -- No --> E[Test Passed ✅]
+    D --> A
+```
 ---
 
 ## 🛠️ What You’ll Find Inside
