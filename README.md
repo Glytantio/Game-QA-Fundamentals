@@ -45,3 +45,8 @@ flowchart LR
 ## 🚀 Purpose
 This repository is part of my **QA learning journey** and serves as a portfolio piece.  
 It shows how I approach testing games **systematically** — from planning, to test execution, to bug reporting.
+
+---
+
+## 📖 Glossary
+See the [Glossary](docs/glossary.md) for definitions of QA terms, abbreviations, and naming conventions (including the PAL rule).
