@@ -1,11 +1,13 @@
 # 🐞 Bug Report Template
 
 **ID:** BUG-001  
-**Title:** [Short, clear summary of the bug] 
-**P.S.** There's actually a trick to titling a bug. Use the mnemonic **PAL**.
-**P** - is for problem of the bug
-**A** - is for action taken to get the bug
-**L** - is for location where you found the bug
+**Title (PAL Rule):**  
+Follow the **PAL rule** when writing titles:  
+- **P (Problem):** What’s wrong?  
+- **A (Action):** What action caused it?  
+- **L (Location):** Where in the game did it happen?  
+
+🔹 **Example Title:** *Character falls through floor – Jumping – Level 1 Left Edge*  
 
 ---
 
