@@ -47,4 +47,29 @@ This test plan outlines the **scope, approach, resources, and schedule** for tes
 ---
 
 ## 📌 Test Cases (Sample)
-| ID      |
+| ID      | Title (PAL)                                | Steps | Expected Result |
+|---------|---------------------------------------------|-------|----------------|
+| TC-001  | Character stuck – Moving – Level 2 wall     | Move into wall repeatedly | Character should not clip into wall |
+| TC-002  | Score not updating – Collecting – Level 1   | Collect 3 coins | Score should increase by 3 |
+
+---
+
+## 📅 Schedule
+- Test Case Design: Sept 23–25  
+- Test Execution: Sept 26–28  
+- Bug Reporting: Ongoing during execution  
+- Final Report: Sept 29  
+
+---
+
+## 👥 Roles & Responsibilities
+- **Tester (You):** Create test cases, execute tests, report bugs.  
+- **Developer:** Fix reported bugs.  
+- **Reviewer (optional):** Validate test cases and bug reports.  
+
+---
+
+## 📊 Exit Criteria
+- All **critical and high-severity** bugs are resolved.  
+- Test cases executed with at least **95% pass rate**.  
+- Bug reports documented using the PAL convention.
