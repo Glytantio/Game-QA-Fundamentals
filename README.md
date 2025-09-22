@@ -27,11 +27,11 @@ It demonstrates how to plan, execute, and document test activities with **struct
 
 ```mermaid
 flowchart LR
-    A[Test Planning] --> B[Test Case Design & Execution]
-    B --> C{Defect Found?}
-    C -- Yes --> D[Bug Reporting (PAL Rule)]
-    C -- No --> E[Test Passed ✅]
-    D --> A
+  A[Test Planning] --> B[Test Case Design & Execution]
+  B --> C{Defect Found?}
+  C -->|Yes| D[Bug Reporting (PAL Rule)]
+  C -->|No| E[Test Passed ✅]
+  D --> A
 ```
 ---
 
