@@ -1,15 +1,35 @@
-# Game QA Fundamentals 🎮
+# 🎮 Game QA Fundamentals  
 
-This repository is dedicated to learning and practicing **Game Quality Assurance (QA)**.  
-It contains study notes, test plans, bug report templates, and hands-on testing exercises for both manual and automated testing.  
+This repository is a learning project focused on **fundamentals of Game QA (Quality Assurance)**.  
+It demonstrates how to plan, execute, and document test activities with **structured workflows and templates**.  
 
-## Goals
-- Build a strong foundation in **Game QA practices**
-- Practice creating **test cases, bug reports, and test plans**
-- Explore **automation** with Python and Selenium
-- Document **case studies** of tested games
+---
 
-## Contents
-- `docs/` → Notes, guides, and templates
-- `examples/` → Practice exercises for manual & automated testing
-- `projects/` → Case studies on real or demo games
+## 🧩 QA Workflow Demonstrated  
+
+1. **Test Planning**  
+   - Define overall QA goals and scope.  
+   - 📄 Example: [Test Plan](docs/test-plan-example.md)  
+
+2. **Test Case Design & Execution**  
+   - Write step-by-step scenarios to validate features.  
+   - 📄 Template: [Test Case Template](docs/test-case-template.md)  
+   - 📄 Example: [TC-001 – Character stuck – Moving – Level 2 wall](docs/test-cases/TC-001.md)  
+
+3. **Bug Reporting**  
+   - Log discovered defects using the **PAL rule** (Problem – Action – Location).  
+   - 📄 Template: [Bug Report Template](docs/bug-report-template.md)  
+   - 📄 Example: [BUG-001 – Character stuck – Moving – Level 2 wall](docs/bug-reports/BUG-001.md)  
+
+---
+
+## 🛠️ What You’ll Find Inside
+- **Structured Templates** → For bug reports & test cases.  
+- **Practical Examples** → A real test case and bug report.  
+- **PAL Rule** → A naming convention for clarity and consistency.  
+
+---
+
+## 🚀 Purpose
+This repository is part of my **QA learning journey** and serves as a portfolio piece.  
+It shows how I approach testing games **systematically** — from planning, to test execution, to bug reporting.
