@@ -48,5 +48,13 @@ It shows how I approach testing games **systematically** — from planning, to t
 
 ---
 
+## Automation Testing (Selenium + Python)
+This repo also contains Selenium-based test automation examples inside the `automation/` folder.  
+- Demonstrates browser automation (login forms, navigation, validation).  
+- Uses Python and Pytest for test structure.  
+- Complements manual QA workflows by showing how to automate repetitive test cases.
+
+---
+
 ## 📖 Glossary
 See the [Glossary](docs/glossary.md) for definitions of QA terms, abbreviations, and naming conventions (including the PAL rule).
